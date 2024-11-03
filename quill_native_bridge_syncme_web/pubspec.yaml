@@ -1,4 +1,4 @@
-name: quill_native_bridge_web
+name: quill_native_bridge_syncme_web
 description: "Web platform implementation of quill_native_bridge"
 version: 0.0.1-dev.4
 homepage: https://github.com/FlutterQuill/quill-native-bridge/tree/main/quill_native_bridge_web
@@ -15,7 +15,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^1.0.0
+  web: ">=0.5.1 <2.0.0"
   quill_native_bridge_platform_interface: ^0.0.1-dev.4
 
 dev_dependencies:
@@ -29,4 +29,4 @@ flutter:
     platforms:
       web:
         pluginClass: QuillNativeBridgeWeb
-        fileName: quill_native_bridge_web.dart
+        fileName: quill_native_bridge_syncme_web.dart

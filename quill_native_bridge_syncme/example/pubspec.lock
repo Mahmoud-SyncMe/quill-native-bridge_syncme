@@ -231,13 +231,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.2"
-  quill_native_bridge:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "10.7.9"
   quill_native_bridge_android:
     dependency: "direct overridden"
     description:
@@ -273,10 +266,17 @@ packages:
       relative: true
     source: path
     version: "0.0.1-dev.4"
-  quill_native_bridge_web:
+  quill_native_bridge_syncme:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "10.7.9"
+  quill_native_bridge_syncme_web:
     dependency: "direct overridden"
     description:
-      path: "../../quill_native_bridge_web"
+      path: "../../quill_native_bridge_syncme_web"
       relative: true
     source: path
     version: "0.0.1-dev.4"
@@ -413,5 +413,5 @@ packages:
     source: hosted
     version: "6.5.0"
 sdks:
-  dart: ">=3.5.2 <4.0.0"
+  dart: ">=3.5.1 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
